@@ -1,0 +1,76 @@
+body {
+	background-color: LightSteelBlue;
+	font-family: Arial;
+}
+
+.component
+{
+    text-decoration: none;
+    color:white;
+    font-size: 30px;
+    display:inline-block;
+
+    text-align: center;
+    margin: 10px 24px;
+    position: relative;
+    background-color: #4489cf;
+    border: 3px solid #225478;
+    margin-top: 4%;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+.component:active {
+	color: aquamarine;
+	border: 3px solid DeepSkyBlue;
+}
+#fuelQuoteForm {
+    margin-top: 8%;
+}
+#profileManagement {
+    margin-bottom: 10%;
+}
+
+.tabButton
+{
+    font-size: 20px;
+    color: white;
+    display: inline-block;
+
+    font-size: 20px;
+    text-align: center;
+    background-color: #4489cf;
+    border: 3px solid #225478;
+
+    width: 200px;
+    height: 50px;
+
+    margin-top:8px;
+    margin-left:8px;
+}
+.tabButton:active {
+    color: aquamarine;
+    border: 3px solid DeepSkyBlue;
+}
+
+#Maintitle
+{
+    font-size: 40px;
+    text-align: center;
+    color:black;
+    margin-top: 5%;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+#overallBox
+{
+    position: relative;
+    background-color: white;
+    padding: 2px 0;
+    text-align: center;
+    border: 3px solid green;
+    margin-top: 4%;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+

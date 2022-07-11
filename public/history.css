@@ -1,0 +1,60 @@
+table, th, td{
+  border: 1px solid black;
+  text-align: center;    
+}
+
+table{
+  width: 94%;
+  border-collapse: collapse;
+}
+
+body {
+	background-color: LightSteelBlue;
+	font-family: Arial;
+}
+
+#table
+{
+  background-color: white;
+  margin-bottom: 3%;
+  margin-left: 3%;
+  margin-right: 3%;
+}
+
+#formBox {
+  position: relative; 
+  background-color: white;
+  width: 90%;
+  height: 90%;
+  margin: auto;
+  margin-top: 4%;
+  border: 3px solid green;
+  padding: 10px;
+}
+
+#formHeader {
+  font-size: 35px;
+  margin-left: 40%;
+  margin-bottom: 5%;
+  margin-right: 25%;
+  text-decoration: underline;
+}
+
+.tabButton
+{
+    font-size: 20px;
+    color: white;
+    display:inline-block;
+
+    font-size: 20px;
+    text-align: center;
+    background-color: #4489cf;
+    border: 3px solid #225478;
+
+    width: 200px;
+    height: 50px;
+}
+.tabButton:active {
+    color: aquamarine;
+    border: 3px solid DeepSkyBlue;
+}
